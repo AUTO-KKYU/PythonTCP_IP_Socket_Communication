@@ -12,10 +12,10 @@ TCP/IP 파이썬 소켓 통신을 PyQt6를 사용하여 Server &lt;-> 다중 cli
    - TCP
    - UDP
      
-![image](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/2e1bd828-5c9a-42fc-a262-3f4dea8504ca)
+![그림2](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/1f7047d0-e5cb-4a4f-8caa-af7a0e09885e)
 
 ### Server에서 Client의 접속 여부를 확인하는 관리자 모드 GUI
-![Screenshot from 2024-03-23 21-24-35](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/b4d7371b-ff6b-48a9-876c-a0b49a7f9d61)
+![Screenshot from 2024-03-23 21-24-35](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/f579c752-11d7-41ef-8522-69cf0d6fb7e7)
 
 - Server의 IP를 Open / Closed 할 수 있으며, 현재 Table에 Client의 정보를 저장하여 DB로 관리 가능하다
 - 또한, 접속한 Client끼리 통신하고 싶으면 Send info 버튼을 통해 요청한 client에게 상대방의 Client information을 보내줄 수 있다
