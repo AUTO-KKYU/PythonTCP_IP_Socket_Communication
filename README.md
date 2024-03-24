@@ -35,3 +35,9 @@ TCP/IP 파이썬 소켓 통신을 PyQt6를 사용하여 Server &lt;-> 다중 cli
 - 다중 로봇 제어 및 다중 시스템 제어 가능
 
 ![Screencast from 03-24-2024 01_11_26 PM](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/f72b76c0-cb5d-4866-8395-25ce35c47d1e)
+
+
+#### 추가적으로 할 수 있는 점
+- 각 Client들의 DB를 서로 Share할 수 있음 -> 데이터 공유 가능
+- 권한 부여 가능
+- 실시간 데이터 적용 -> 모니터링 가능 및 유용한 서비스 제작 가능
