@@ -45,7 +45,11 @@ $ pip install vidstream
 - Server에서 어떤 유저가 접속하였고, 해당 유저의 접속 시점을 파악할 수 있다
 - 또한 Server에서 상대 Client의 정보를 보내주면 상대방과 화상통화할 수 있다.
 
---- 
+#### Face chat 개발 사항 정리
+[Notion 페이지](https://www.notion.so/Socket-54efa9e71a1b488d86bb40fdda881bb1)
+
+---
+
 #### ROS를 사용하여 분산 시스템에서 다중 로봇 통신 가능
 - 노드들을 이용하여 TCP/IP 소켓 통신을 통해 서로 통신하고 데이터를 교환할 수 있다
 - 다중 로봇 제어 및 다중 시스템 제어 가능
