@@ -31,21 +31,30 @@ $ pip install vidstream
 ---
 
 ### Server에서 Client의 접속 여부를 확인하는 관리자 모드 GUI
-![Screenshot from 2024-03-23 21-24-35](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/f579c752-11d7-41ef-8522-69cf0d6fb7e7)
+![Screenshot from 2024-03-30 21-52-25](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/ad331e07-2f74-41b0-931e-7aaec9b69c2a)
 
-- Server의 IP를 Open / Closed 할 수 있으며, 현재 Table에 Client의 정보를 저장하여 DB로 관리 가능하다
-- 또한, 접속한 Client끼리 통신하고 싶으면 Send info 버튼을 통해 요청한 client에게 상대방의 Client information을 보내줄 수 있다
+- Server의 IP를 Open / Closed 할 수 있으며, 현재 GUI 상 Table에 Client의 정보는 자동적으로 DB에 저장되도록 설정하였다
+![Screenshot from 2024-03-30 22-09-45](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/39f6b4c5-a9d8-4391-8247-9d0c2c7fdfa4)
 
+- 추가적으로 ExportCSV 버튼을 누르면 특정 경로를 설정하여 테이블을 CSV FILE 형식으로 저장할 수 있다
 
-### Client측 GUI (LOGIN / Check Information / Face Chat (개발 진행중))
+### Client측 GUI (LOGIN / Check Information / Face Chat)
 
-![Screenshot from 2024-03-23 21-43-03](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/e7156f18-02db-4f26-b10f-3960a21b1373)
+![Screenshot from 2024-03-30 22-07-18](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/929bd5e0-139f-48ea-aabe-3b80f5159184)
 
-- Client에서 Server측으로 login하면 Client에서 내부 정보를 Server에서 확인 가능.
+- Client에서 Server측으로 login하면 Client에서 내부 정보를 Server에서 확인 가능
 - Server에서 어떤 유저가 접속하였고, 해당 유저의 접속 시점을 파악할 수 있다
-- 또한 Server에서 상대 Client의 정보를 보내주면 상대방과 화상통화할 수 있다.
+- 또한 Server에서 상대 Client의 정보를 보내주면 상대방과 화상통화할 수 있다
+- 화상통화에 대한 부분은, 최종적으로 정리된 후 업로드 할 예정이다
+
+### 구현 영상
+
+
 
 #### Face chat 개발 사항 정리
+- Face chat 개발 성공
+- 현재 수어인식 딥러닝 모델을 활용한 커뮤니케이션 프로그램을 소켓 통신을 활용하여 진행 중이다
+- 마무리 단계에 접어들었으며, 상대방 캠 + 자신 캠 띄우기 진행중이다.
 [Notion 페이지](https://www.notion.so/Socket-54efa9e71a1b488d86bb40fdda881bb1)
 
 ---
@@ -53,9 +62,6 @@ $ pip install vidstream
 #### ROS를 사용하여 분산 시스템에서 다중 로봇 통신 가능
 - 노드들을 이용하여 TCP/IP 소켓 통신을 통해 서로 통신하고 데이터를 교환할 수 있다
 - 다중 로봇 제어 및 다중 시스템 제어 가능
-
-![Screencast from 03-24-2024 01_11_26 PM](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/f72b76c0-cb5d-4866-8395-25ce35c47d1e)
-
 
 #### 추가적으로 할 수 있는 점
 - 각 Client들의 DB를 서로 Share할 수 있음 -> 데이터 공유 가능
