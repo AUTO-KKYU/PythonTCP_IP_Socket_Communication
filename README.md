@@ -1,6 +1,8 @@
 # PythonTCP_IP_Socket_Communication
 TCP/IP 파이썬 소켓 통신을 PyQt6를 사용하여 Server &lt;-> 다중 clients 제어 
 
+[Notion 페이지](https://www.notion.so/Socket-54efa9e71a1b488d86bb40fdda881bb1)
+
 ### TCP/IP 소켓 통신 :  네트워크를 통해 데이터를 주고받기 위한 표준 프로토콜
 
 - TCP/IP 소켓 통신을 위한 조건
@@ -55,7 +57,6 @@ $ pip install vidstream
 - Face chat 개발 성공
 - 현재 수어인식 딥러닝 모델을 활용한 커뮤니케이션 프로그램을 소켓 통신을 활용하여 진행 중이다
 - 마무리 단계에 접어들었으며, 상대방 캠 + 자신 캠 띄우기 진행중이다.
-[Notion 페이지](https://www.notion.so/Socket-54efa9e71a1b488d86bb40fdda881bb1)
 
 ---
 
