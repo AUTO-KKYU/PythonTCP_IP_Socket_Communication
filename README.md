@@ -44,6 +44,7 @@ $ pip install vidstream
 - 추가적으로 ExportCSV 버튼을 누르면 특정 경로를 설정하여 테이블을 CSV FILE 형식으로 저장할 수 있다
 
 ### Client측 GUI (LOGIN / Check Information / Face Chat)
+![Screenshot from 2024-03-31 19-35-43](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/237edac4-48ab-4000-97c6-7a0a31951233)
 
 ![Screenshot from 2024-03-30 22-07-18](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/929bd5e0-139f-48ea-aabe-3b80f5159184)
 
@@ -60,9 +61,7 @@ $ pip install vidstream
 - Face chat 개발 성공
 - 현재 수어인식 딥러닝 모델을 활용한 커뮤니케이션 프로그램을 소켓 통신을 활용하여 진행 중이다
 - 마무리 단계에 접어들었으며, 상대방 캠 + 자신 캠 띄우기 진행중이다.
-
 ---
-
 #### ROS를 사용하여 분산 시스템에서 다중 로봇 통신 가능
 - 노드들을 이용하여 TCP/IP 소켓 통신을 통해 서로 통신하고 데이터를 교환할 수 있다
 - 다중 로봇 제어 및 다중 시스템 제어 가능
