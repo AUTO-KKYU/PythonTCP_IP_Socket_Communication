@@ -1,8 +1,6 @@
 # PythonTCP_IP_Socket_Communication
 TCP/IP 파이썬 소켓 통신을 PyQt6를 사용하여 Server &lt;-> 다중 clients 제어 
 
-[Notion 페이지](https://www.notion.so/Socket-54efa9e71a1b488d86bb40fdda881bb1)
-
 ### TCP/IP 소켓 통신 :  네트워크를 통해 데이터를 주고받기 위한 표준 프로토콜
 
 - TCP/IP 소켓 통신을 위한 조건
