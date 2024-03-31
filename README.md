@@ -48,12 +48,21 @@ $ pip install vidstream
 
 ![Screenshot from 2024-03-30 22-07-18](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/929bd5e0-139f-48ea-aabe-3b80f5159184)
 
+![GIFMaker_me](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/892624a1-2283-45eb-bef5-25b811f3c4e4) 
+![GIFMaker_me (1)](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/f6a5bbc9-7b9c-4aec-bdaf-ddaa6937398f)
+
+
 - Client에서 Server측으로 login하면 Client에서 내부 정보를 Server에서 확인 가능
 - Server에서 어떤 유저가 접속하였고, 해당 유저의 접속 시점을 파악할 수 있다
 - 또한 Server에서 상대 Client의 정보를 보내주면 상대방과 화상통화할 수 있다
 - 화상통화에 대한 부분은, 최종적으로 정리된 후 업로드 할 예정이다
 
-### 구현 영상
+
+
+
+---
+
+### 최종 구현 영상
 
 
 
