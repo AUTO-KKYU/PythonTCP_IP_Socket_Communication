@@ -13,7 +13,7 @@ TCP/IP 파이썬 소켓 통신을 PyQt6를 사용하여 Server &lt;-> 다중 cli
 4. 어떤 프로토콜을 사용하는지에 따라 통신할 수 있음
    - TCP
    - UDP
-   
+
 ![그림2](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/1f7047d0-e5cb-4a4f-8caa-af7a0e09885e)
 
 ---
@@ -30,6 +30,9 @@ $ sudo apt-get install portaudio19-dev
 $ pip install pyaudio
 $ pip install vidstream
 ```
+
+- socket이란 모듈은 내장되어있는 모듈이므로 따로 설치해 줄 필요는 없다
+
 ---
 
 ### Server에서 Client의 접속 여부를 확인하는 관리자 모드 GUI
