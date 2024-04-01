@@ -61,6 +61,7 @@ $ pip install vidstream
 ---
 
 ### 최종 구현 영상
+![구현영상](https://github.com/AUTO-KKYU/PythonTCP_IP_Socket_Communication/assets/118419026/b6bc6460-e9e2-42ee-84b5-be66a2a317c2)
 
 
 
